@@ -1,0 +1,24 @@
+# ============================================
+# Java 学习仓库 · 总 .gitignore
+# 位置：F:\JavaAI\demo\.gitignore
+# 作用：防止 IDE 配置 / 编译产物 / 工具目录被提交
+# ============================================
+
+# ---- IDE（IntelliJ IDEA / MarsCode 等）----
+.idea/
+*.iml
+
+# ---- 编译产物 ----
+out/
+bin/
+target/
+*.class
+
+# ---- 工具目录（防止将来在 F:\JavaAI 上层 init 时误传）----
+jdk25/
+idea/
+
+# ---- 系统 / 编辑器杂项 ----
+.DS_Store
+Thumbs.db
+.vscode/
