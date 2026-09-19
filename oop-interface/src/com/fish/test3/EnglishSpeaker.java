@@ -1,5 +1,5 @@
 package com.fish.test3;
 
-public interface Inter {
+public interface EnglishSpeaker {
     public abstract void say();
 }
